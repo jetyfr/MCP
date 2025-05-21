@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+      "filesystem": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "C:\\Users\\David\\Desktop\\MCP"
+           ]
+        },
+      "playwright": {
+        "command": "npx",
+        "args": ["@playwright/mcp@latest"],
+        "env": {"DISPLAY": ":1"}
+      }
+    }
+}
